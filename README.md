@@ -26,7 +26,16 @@ The repository includes a MATLAB script and two folders:
 
 ### Usage
 
-To run the code, call the function `HL_Detect_TSA` with the input video name.
+To run the code, call the function `HL_Detect_TSA` with the input video name and the number of frames, `N`, for the listener block.
+
+#### Example:
+
+- **For the Singapore Maritime Dataset video**  
+  `vid_name = 'MVI_0788_VIS_OB.avi'`, set `N = 60`.
+
+- **For the Buoy Dataset video**  
+  `vid_name = 'buoyGT_2_5_3_4.avi'`, set `N = 20`.
+
 
 ## Citation
 If you use this code in your research, please cite the following paper:
