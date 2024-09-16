@@ -1,4 +1,5 @@
-# HL-Detection-using-TSA
+# HL-Detection-using-TSA [![DOI](https://zenodo.org/badge/842448544.svg)](https://zenodo.org/doi/10.5281/zenodo.13768683)
+
 
 ## Authors
 [Ahmet Agaoglu](https://github.com/Ahmet-Agaoglu), [Nezih Topaloglu](https://github.com/nezihtopaloglu)
