@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Agaoglu"
+  given-names: "Ahmet"
+  orcid: "https://orcid.org/0000-0001-8139-618X"
+- family-names: "Topaloglu"
+  given-names: "Nezih"
+  orcid: "https://orcid.org/0000-0003-0525-8900"
+title: "The source code and datasets of the study Dynamic Region of Interest Generation for Maritime Horizon Line Detection using Time Series Analysis"
+version: 1.0.0
+doi: 10.5281/zenodo.13768684
+date-released: 2024-09-16
+url: "https://doi.org/10.5281/zenodo.13768684"
