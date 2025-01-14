@@ -62,8 +62,15 @@ To reproduce the results from the paper:
 
 ## Citation
 If you use this code in your research, please cite:
-@article{Agaoglu2024, title={Dynamic Region of Interest Generation for Maritime Horizon Line Detection using Time Series Analysis}, author={Ahmet Agaoglu and Nezih Topaloglu}, journal={Under Review}, year={2024}, doi={} }
-
-
+@article{Agaoglu2025,
+  author    = {Ahmet Agaoglu and Nezih Topaloglu},
+  title     = {Dynamic region of interest generation for maritime horizon line detection using time series analysis},
+  journal   = {The Visual Computer},
+  year      = {2025},
+  doi       = {10.1007/s00371-024-03767-8},
+  url       = {https://doi.org/10.1007/s00371-024-03767-8},
+  abstract  = {Maritime horizon line detection is critical in applications such as marine navigation and ocean surveillance. This study introduces a novel system that leverages dynamic region of interest (ROI) generation and time series analysis to improve both accuracy and computational efficiency. By employing parallelogram-shaped ROIs with dynamically controlled heights, the system minimizes processing time while maintaining high detection accuracy. It incorporates a control system to correct inaccurate ROIs and mechanisms to detect the presence or absence of the horizon line. Evaluated on the Buoy Dataset (BD) and Singapore Maritime Dataset (SMD), the system demonstrates superior performance over state-of-the-art algorithms, indicating its suitability for real-time applications in dynamic maritime environments. The proposed system achieves median positional and angular errors of 0.83 pixels and 0.08 degrees, respectively, on the SMD, and 0.91 pixels and 0.12 degrees, respectively, on the BD. Additionally, the mean ROI size corresponds to 3\% of the video frame size, enabling the system to achieve 20 frames per second for SMD and 33.3 frames per second for BD. The source code and associated datasets utilized in this study are publicly available and can be accessed through \url{https://github.com/Ahmet-Agaoglu/HL-Detection-using-TSA}, ensuring reproducibility and facilitating further research. Additionally, the result videos, which showcase the outcomes of this research, are available at \url{https://doi.org/10.5281/zenodo.13768637}.},
+  issn      = {1432-2315}
+}
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
